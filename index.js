@@ -8,10 +8,10 @@ source.addEventListener("normal", (e) => {
     list.appendChild(li)
 })
 
-source.addEventListener("especial", (e) => {
+source.addEventListener("special", (e) => {
     const li = document.createElement("li")
     li.innerText = e.data
-    li.className = "especial"
+    li.className = "special"
     list.appendChild(li)
 })
 
